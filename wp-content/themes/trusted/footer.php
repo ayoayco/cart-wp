@@ -58,7 +58,7 @@ if ( is_front_page() ) {
 		<?php endif; ?>
 
 		<div id="bottom-footer">
-			<div class="container clearfix">
+			<!-- div class="container clearfix">
 				<?php trusted_powered_by(); ?>
 
 				<?php wp_nav_menu( array( 
@@ -70,7 +70,7 @@ if ( is_front_page() ) {
                 	'fallback_cb' => '',
 				) ); ?>
 
-			</div>
+			</div -->
 		</div>
 
 	</footer><!-- #colophon -->
